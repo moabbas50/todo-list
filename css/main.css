@@ -1,0 +1,103 @@
+
+*{
+    padding: 0px;
+    margin: 0px ;
+}
+
+
+body{
+    background-color: gray;
+}
+.section{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.head h1{
+    font-size: 30px;
+    color: white;
+}
+.in{
+    width: 50%;
+background-color:black;
+margin: auto;
+margin-top: 50px;
+margin-bottom: 50px;
+padding: 5px 0px;
+border-radius: 10px;
+}
+.in input {
+    width:80%;
+    height: 30px;
+    align-items: center;
+    background: transparent;
+    border: 0px ;
+    outline: 0px;
+   color: white;
+} 
+.in button{
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    color: green;
+    border: 2px solid green;
+    border-radius: 10px;
+
+}
+
+.task{
+    display: none;
+}
+.out{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 50%;
+margin: auto;
+margin-top: 50px;
+margin-bottom: 50px;
+padding: 5px 5px;
+background-color: black;
+height: fit-content;
+border-radius: 10px;
+}
+.out .bott .eddit {
+    width: 80px;
+    height: 20px;
+    cursor: pointer;
+    color: green;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+.out .bott .Remove {
+    width: 80px;
+    height: 20px;
+    cursor: pointer;
+    color: green;
+    border: 2px solid green;
+    border-radius: 10px;
+    height: 20px;
+    margin: 2px 0px;
+    display: right ;
+}
+.out .outb{
+    width: 80%;
+ 
+}
+.out input {
+    width: 80%;
+    height: 30px;
+    align-items: center;
+    background: transparent;
+    border: 0px ;
+    outline: 0px;
+   color: white;
+} 
+.out .bott .update {
+    color:red;
+    border: 2px solid red;
+    width: 80px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
