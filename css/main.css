@@ -18,6 +18,8 @@ body{
     color: white;
 }
 .in{
+    display: flex;
+    align-items: center;
     width: 50%;
 background-color:black;
 margin: auto;
@@ -29,7 +31,6 @@ border-radius: 10px;
 .in input {
     width:80%;
     height: 30px;
-    align-items: center;
     background: transparent;
     border: 0px ;
     outline: 0px;
@@ -42,9 +43,7 @@ border-radius: 10px;
     color: green;
     border: 2px solid green;
     border-radius: 10px;
-
 }
-
 .task{
     display: none;
 }
@@ -100,4 +99,71 @@ border-radius: 10px;
     height: 20px;
     cursor: pointer;
     border-radius: 10px;
+}
+
+@media(max-width:1024px){
+    .in{
+        display: flex;
+        width:70%;
+  
+    }
+    .in button{
+        width: 70px;
+        height: 30px;
+    }
+    .out{
+        width:70%;
+}
+.out .bott .btn {
+    width: 70px;
+        height: 20px;
+}
+}
+
+@media(max-width:720px){
+    .in{
+        display: flex;
+        width:70%;
+  
+    }
+
+    .in button{
+        width: 60px;
+        height: 25px;
+    }
+
+    .out{
+        width:70%;
+}
+.out .bott .btn {
+    width: 60px;
+        height: 17px;
+}
+}
+
+@media(max-width:640px){
+  
+    .in{
+        display: flex;
+        width:70%;
+  
+    }
+    .out{
+        width:70%;
+}
+}
+
+
+
+
+
+@media(max-width:500px){
+    .in{
+        display: flex;
+        width:80%;
+  
+    }
+    .out{
+        width:80%;
+}
 }
